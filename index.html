@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>solvingpen</title>
+  </head>
+  <body>
+    <h2>About Solvingpen</h2>
+    <p>Welcome to solvingpen</p>
+    <!-- From Uiverse.io by reshades -->
+
+    <button class="button">
+      <div class="text">Button</div>
+    </button>
+    <p>
+      solvingpen is an <strong>university website</strong> that is created to
+      help university student communiciate with each other in an acedemic way.
+      providing them with all forms of learning patterns, it house some key
+      learning and communication tools <em>to help student focuse</em> on their
+      school such as quize with other school in the country, providing them with
+      easy work and learn objectives in the socities. provide key inductrial and
+      off schools jobs this provides them with
+      <a href="https://www.google.com" target="_blank"> Login to dashboard</a>
+      easy access to to develop connection and focus on the key way of building
+      relationships with one another in our recent interview with sarahar
+      reports we are also looking for a easy way to provide key jobs for student
+      in the school. to enable them find jobs while there are in school. I have
+      to stop here for now. will contiune much later.
+    </p>
+    <br />
+    <p>Select your last Grade</p>
+    <label>Grade</label>
+    <select name="Grade" id="Grade">
+      <option value="A1">A1</option>
+      <option value="B2">B2</option>
+      <option value="C3">C3</option></select
+    ><br />
+    <p>Select Date for your last Exam</p>
+    <label for="Date">Date</label>
+    <input type="date" name="Date" />
+    <!--this about text will be changed later-->
+    <br />
+    <p>
+      So far, we have been able to register 12 Higer institutions from Nigeria.
+    </p>
+    <!--List of school-->
+    <ul>
+      <li>university of Benin</li>
+      <li>university of Asaba</li>
+      <li>Abuja Fedral university</li>
+      <li>Lagos state University</li>
+      <li>Collage of Education Asaba Delta state</li>
+      <li>University of Kaduna, Kaduna State</li>
+      <li>University of Nigeria Enugu</li>
+    </ul>
+    <br />
+    <p>Other university which we are working with are listed Below</p>
+    <ol>
+      <li>Convernet University</li>
+      <li>Seek and find priviate university</li>
+      <li>Power belongs to God university</li>
+    </ol>
+    <br />
+    <!-- Table-->
+    <p>
+      We have also Listed the critiria for selecting the school below is the
+      provided list for the critia for selecting a schoool to join SolvingPen.
+    </p>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>School Age</th>
+          <th>School population</th>
+          <th>Number of Department</th>
+          <th>Number of Courses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>50 years and above</td>
+          <td>Over 40,000 student</td>
+          <td>Over 60</td>
+          <td>200 and above</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      School with the above critira and adviced to fill out the form below and
+      submit.
+    </p>
+    <!--form-->
+    <form action="process.php" method="post">
+      <label for="first name"> your name</label>
+      <input
+        type="text"
+        id="name"
+        name="see the first name"
+        placeholder=" what is your name"
+      />
+      <br />
+      <br />
+      <label for="surname"> your surname</label>
+      <input type="text" name="surname" id="surname" placeholder="surname" />
+      <br />
+      <br />
+      <label for="email"> email Address</label>
+      <input type="email" name="email" id="email" placeholder="Email address" />
+      <br />
+      <br />
+      <label for="text">input your text</label>
+      <input
+        type="textarea"
+        name="text area"
+        id="text area"
+        placeholder="Enter your text"
+      />
+      <br />
+      <br />
+      <label for="password">password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter password"
+      /><br /><br />
+      <label for="phone"> input phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder=" +23 456 678" />
+      <br />
+      <br />
+      <label>Gender:</label> <br />
+
+      <input type="radio" id="male" name="Gender" value="male" />
+      <label for="male">male</label> <br />
+      <input type="radio" id="female" name="Gender" value="female" />
+      <label for="female">female</label><br />
+      <input type="radio" name="Gender" id="Others" />
+      <label for="other">Others</label> <br />
+
+      <!--Check box-->
+      <p>Select the features you want for your school</p>
+      <label> Select Account features: </label> <br />
+      <input
+        type="checkbox"
+        id="lecturer"
+        name="Account features"
+        value="lecturer"
+      />
+      <label for="lecturer">lecturer profile</label> <br />
+      <input type="checkbox" id="student" name="Account features" />
+      <label for="student">Student profile</label>
+      <br />
+      <br />
+      <label>message</label> <br />
+      <br />
+      <textarea name="message" id="message" rows="4"></textarea>
+      <br /><br />
+      <p>Selcet your School state</p>
+      <br />
+      <label>Stat of Origin</label>
+      <select name="State of Origin">
+        <option value="Abia">Abia State</option>
+        <option value="Delta">Delta State</option>
+        <option value="Enugu">Enugu state</option>
+      </select>
+
+      <p>
+        Thank you for choosing Solvingpen, before you submit, review your
+        answers
+      </p>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button><a href="https://www.google.com">back</a></button>
+    </form>
+  </body>
+</html>
